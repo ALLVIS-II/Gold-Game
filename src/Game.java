@@ -7,7 +7,7 @@ public class Game {
 
     public Game()
     {
-        player = new Player(0, 10);
+        player = new Player(20, 10);
         digger = new Digger();
         scanner = new Scanner(System.in);
     }
@@ -61,9 +61,7 @@ public class Game {
                     System.out.println("Thank you for playing! you account balance is " + player.getMoney());
                     play = false;
                 }
-                
             }
-
         }
     }
     public static void main(String[] args) throws Exception {

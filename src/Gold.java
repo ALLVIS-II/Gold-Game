@@ -25,11 +25,11 @@ public class Gold {
 
         if (chance < 70)
         {
-            return new Gold("small", 10);
+            return new Gold(" gold", 5);
         }
         else 
         {
-            return new Gold("small", 15);
+            return new Gold("Big gold", 25);
         }
     }
 }
